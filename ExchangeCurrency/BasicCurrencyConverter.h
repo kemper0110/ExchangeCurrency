@@ -16,6 +16,7 @@ public:
 	virtual double convert(const double amount) const noexcept  {
 		return amount * currency;
 	}
+	virtual ~BasicCurrencyConverter(){}
 protected:
 	double currency = 0.;
 };
