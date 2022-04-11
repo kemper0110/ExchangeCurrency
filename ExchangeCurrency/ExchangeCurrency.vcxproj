@@ -116,7 +116,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -131,7 +131,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -144,11 +144,10 @@
     <ClCompile Include="ExchangeCurrency.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BasicCurrencyConverter.h" />
-    <ClInclude Include="BasicCurrencyConverterView.h" />
-    <ClInclude Include="Fawazahmed0CurrencyConverter.h" />
-    <ClInclude Include="Fawazahmed0CurrencyConverterController.h" />
-    <ClInclude Include="Fawazahmed0CurrencyConverterView.h" />
+    <ClInclude Include="CurrencyConverter.h" />
+    <ClInclude Include="CurrencyProvider.h" />
+    <ClInclude Include="UsdRubProvider.h" />
+    <ClInclude Include="UsdRubConverter.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

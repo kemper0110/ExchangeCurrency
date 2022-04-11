@@ -7,7 +7,7 @@
 
 TEST_CASE("Fawazahmed0CurrencyConverter", "[requestCurrency]")
 {
-	Fawazahmed0CurrencyConverter converter;
+	UsdRubProvider converter;
 
 	// prepared currency 
 	const auto test_cases = {

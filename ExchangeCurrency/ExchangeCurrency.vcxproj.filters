@@ -20,19 +20,16 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BasicCurrencyConverter.h">
+    <ClInclude Include="CurrencyConverter.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="Fawazahmed0CurrencyConverter.h">
+    <ClInclude Include="UsdRubProvider.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="Fawazahmed0CurrencyConverterView.h">
+    <ClInclude Include="CurrencyProvider.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="Fawazahmed0CurrencyConverterController.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="BasicCurrencyConverterView.h">
+    <ClInclude Include="UsdRubConverter.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
